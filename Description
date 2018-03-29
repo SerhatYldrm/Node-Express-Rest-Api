@@ -1,0 +1,19 @@
+Build a Node Express Rest Api to handle the uses cases.
+
+Create a rest api using Express.js that handles the requests based on the endpoints.
+Create a MySQL database.
+Create a task table and add the columns in respect to the sample task object below.
+
+Endpoint ----------------------- Http Method -------- Description
+taskApiUrl/tasks ---------------- post ----------------A user wants to save a new task.
+taskApiUrl/tasks/:task_id --------get -----------------A user wants to get a specific task from DB.
+
+Sample Task Object: 
+{
+"id" : "123123",
+"title" : "this is title",
+"description" : "lorem ipsum", 
+"project_id" : "1357",
+"due_date" : "2016-04-23",
+"status" : "new"
+}
